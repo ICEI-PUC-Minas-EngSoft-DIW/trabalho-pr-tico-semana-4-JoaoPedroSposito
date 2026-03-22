@@ -8,10 +8,10 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: João Pedro Spósito Pereira Cézar 
+- Matricula: 912289
+- Proposta de projeto escolhida: website de recomendação de jogos
+- Breve descrição sobre seu projeto: um website capaz de recomendar jogos de acordo com preferências determinadas, como gênero, estilo, plataforma, etc.
 
 
 ## Print do(s) wireframe(s) criado
