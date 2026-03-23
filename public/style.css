@@ -27,33 +27,50 @@ header button {
     background: #a155ff;
     border: none;
     color: white;
-    padding: 8px 15px;
+    padding: 8px 7px;
     border-radius: 5px;
 }
 
 section {
     margin-bottom: 40px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
+    padding: 10px;
 }
-
+section h2{
+    width: 100%;
+    text-align: left;
+}
 .card {
-    width: 280px;
+    min-width: 280px;
     background-color: #0b0118;
 }
 
 .card img {
     width: 100%;
-    height: 350px;
+    height: 300px;
     border-radius: 10%;
     border: 4px solid;
     object-fit: cover;
 }
 
+.cards {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 10px;
+}
+
+
 .destaques .card {
     width: 320px;
+}
+
+.destaques h2{
+    text-align: center;
+}
+
+.destaques .cards{
+    justify-content: center;
 }
 
 .terror .card {
