@@ -1,18 +1,18 @@
 body {
-    background-color: blueviolet;
-}
-header h1 {
+    background-color: #0b0118;
+    color: white;
     font-family: 'Orbitron', sans-serif;
     text-align: center;
-
+    margin: 0;
+    padding: 0;
     
 }
 
 header input {
-    border-radius: 10px;
+    border-radius: 25px;
     background-color: black; 
     color: white;
-    padding: 8px;
+    padding: 12px 20px;
     width: 20%;
     
     
@@ -29,7 +29,7 @@ header {
 article  {
     display: inline-block;
     width: calc(30% - 16px);
-    background-color: blueviolet;
+    background-color: #0b0118;
     margin: 5px;
     
     
@@ -44,29 +44,27 @@ article img {
 }
 
 header button {
-    background-color: black;
-    color: lightgrey;
-    border-radius: 10px;
-    padding: 6px 12px;
-    float: right;
-    
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background: #a155ff;
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;    
 }
 
 footer {
-    margin-top: 1%;
+    
     padding: 10px;
     width: 100%;
 }
 section {
-    display: flex;
-    flex-wrap: nowrap; 
-    gap: 1px;         
-    padding: 20px;
-    overflow-x: auto;  
+    padding: 0.5%;
+    margin-bottom: 40px;
 }
 .terror article {
-    flex: 0 0 auto;
-    
+    flex: 0 1 180px;
     width: 280px;
     object-fit: cover;
 }
