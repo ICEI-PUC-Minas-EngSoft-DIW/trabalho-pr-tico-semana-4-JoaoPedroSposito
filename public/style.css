@@ -5,6 +5,8 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 header {
@@ -43,6 +45,8 @@ section h2{
 .card {
     min-width: 280px;
     background-color: #0b0118;
+    flex: 0 0 auto;
+    width: 280 px;
 }
 
 .card img {
@@ -59,6 +63,7 @@ section h2{
     overflow-x: auto;
     scroll-behavior: smooth;
     padding: 10px;
+    width: 100%;
 }
 
 
@@ -117,4 +122,14 @@ header input {
     width: 70%;
 }
 
+.card img {
+        height: 200px; /* Diminui a altura para não ocupar a tela toda */
+        border-width: 2px; /* Deixa a borda mais fina para telas pequenas */
+    }
+    .destaques .card {
+        width: 250px;
+    }
+    .terror .card, .fps .card {
+        width: 180px;
+    }
 } 
