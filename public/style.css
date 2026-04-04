@@ -24,11 +24,12 @@ header button {
     position: absolute;
     right: 20px;
     top: 20px;
-    background: #a155ff;
+    background: transparent;
     border: none;
-    color: white;
+   color: #a155ff;
     padding: 8px 7px;
     border-radius: 5px;
+    border: 2px solid #a155ff
 }
 
 section {
@@ -102,3 +103,18 @@ footer {
     padding: 10px;
     width: 100%;
 }
+@media screen and (max-width: 600px) {
+
+header button {
+
+    position: relative;    
+    width: 80%; /* Fica mais fácil de clicar */
+        padding: 15px; /* Botão mais "gordinho" */
+        font-size: 1rem;
+}
+
+header input {
+    width: 70%;
+}
+
+} 
