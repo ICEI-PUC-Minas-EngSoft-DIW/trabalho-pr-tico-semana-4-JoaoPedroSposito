@@ -1,3 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+html {
+    scroll-behavior: smooth;
+}
 body {
     background-color: #0b0118;
     color: white;
@@ -113,8 +121,8 @@ footer {
 header button {
 
     position: relative;    
-    width: 80%; /* Fica mais fácil de clicar */
-        padding: 15px; /* Botão mais "gordinho" */
+    width: 80%; 
+        padding: 15px; 
         font-size: 1rem;
 }
 
@@ -123,8 +131,8 @@ header input {
 }
 
 .card img {
-        height: 200px; /* Diminui a altura para não ocupar a tela toda */
-        border-width: 2px; /* Deixa a borda mais fina para telas pequenas */
+        height: 200px; 
+        border-width: 2px; 
     }
     .destaques .card {
         width: 250px;
