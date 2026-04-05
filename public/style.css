@@ -138,31 +138,34 @@ footer {
     padding: 10px;
     width: 100%;
 }
+footer a {
+    color: white;
+    border-bottom:  solid white;
+    text-decoration: none;
+}
 @media screen and (max-width: 600px) {
 
 header button {
-
     position: relative;    
     width: 80%; 
-        padding: 15px; 
-        font-size: 1rem;
+    padding: 15px; 
+    font-size: 1rem;
 }
 
 header input {
     width: 70%;
 }
-
 .card img {
-        height: 200px; 
-        border-width: 2px; 
-    }
-    .destaques .card {
-        width: 250px;
-    }
-    .terror .card, .fps .card {
-        width: 160px;
-    }
-    section {
-        margin-bottom: 10px;
-    }
-} 
+    height: 200px; 
+    border-width: 2px; 
+}
+.destaques .card {
+    width: 250px;
+}
+.terror .card, .fps .card {
+    width: 160px;
+}
+section {
+    margin-bottom: 10px;
+}
+}
