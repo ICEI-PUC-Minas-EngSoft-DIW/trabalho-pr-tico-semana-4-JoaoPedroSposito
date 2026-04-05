@@ -168,4 +168,7 @@ header input {
 section {
     margin-bottom: 10px;
 }
+.destaques .cards{
+    justify-content: left;
+}
 }

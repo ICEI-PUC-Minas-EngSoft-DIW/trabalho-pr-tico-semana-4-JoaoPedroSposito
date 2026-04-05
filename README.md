@@ -14,11 +14,8 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 - Breve descrição sobre seu projeto: um website capaz de recomendar jogos de acordo com preferências determinadas, como gênero, estilo, plataforma, etc.
 
 
-## Print do(s) wireframe(s) criado
-
-![wireframe](public/images/wireframe.png)
-
 
 ## Print da home-page criada
 
-![print-home-page](<public/images/print-home-page.png>)
+![print-home-page](public/images/print-buscape.png)
+![print-port-mobile](public/images/print-mobile-port.png)
